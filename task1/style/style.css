@@ -1,0 +1,359 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color: #161513;
+  color: white;
+}
+
+/* -------------------------------- */
+
+header {
+  background-color: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+
+header ul {
+  display: flex;
+}
+
+
+header ul li {
+  padding: 10px 25px;
+}
+
+header ul li a {
+  color: white;
+  font-size: 20px;
+}
+
+
+
+header .logo a {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+header ul li a:hover,
+header .logo a:hover {
+  color: rgba(240, 109, 69, 0.75);
+}
+
+
+.active {
+  color: #f06f46;
+}
+
+/* --------------------------------- */
+.share {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.home h1 {
+  margin: 15px auto;
+  letter-spacing: -1px;
+}
+
+.home h1 span {
+  color: #f06f46;
+}
+
+.home p {
+  max-width: 680px;
+  margin: 15px auto;
+  color: #ccc;
+  line-height: 1.6;
+  padding: 0 10px;
+}
+
+.home img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.home .btn {
+  margin: 20px auto;
+}
+
+.home .btn button {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: none;
+  margin: 0 5px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.home .btn button:first-child {
+  background-color: white;
+  color: #161513;
+  border: 1px solid transparent;
+}
+
+.home .btn button:last-child {
+  background-color: #161513;
+  color: white;
+  border: 1px solid white;
+}
+
+.home .btn button:first-child:hover {
+  background-color: #161513;
+  color: white;
+  border: 1px solid white;
+}
+
+.home .btn button:last-child:hover {
+  background-color: white;
+  color: #161513;
+  border: 1px solid transparent;
+}
+
+.home .exper {
+  padding-top: 50px;
+}
+
+.home .exper h3 {
+  text-transform: uppercase;
+  color: #ccc;
+}
+
+.home .exper .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.home .exper .icon i {
+  font-size: 30px;
+  color: #ccc;
+  margin: 0 30px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.home .exper .icon i:hover {
+  color: white;
+}
+
+/* --------------------------------- */
+
+
+.project h1 {
+  color: #f06f46;
+}
+
+.project .cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 0 10px;
+}
+
+.project .cards .card {
+  background-color: #2a2a2a;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.25s;
+
+}
+
+.project .cards .card img {
+  width: 100%;
+}
+
+.project .text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  text-transform: uppercase;
+}
+
+.project .text p {
+  display: flex;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #ccc;
+  font-weight: bold;
+}
+
+.project .text a i {
+  color: white;
+}
+
+.project .text a i:hover {
+  color: #f06f46;
+}
+
+.project .cards .card:hover {
+  transform: translateY(-10px);
+}
+
+/* --------------------------------- */
+.experience h1 {
+  color: rgb(44, 135, 225);
+}
+
+.experience .content {
+  margin: 50px auto 30px;
+  max-width: 840px;
+  padding: 0 10px;
+}
+
+.experience .content .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.experience .content .title .head {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.experience .head .history {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.experience .content .text {
+  text-align: start;
+  line-height: 1.7;
+  font-size: 16px;
+  color: #ccc;
+}
+
+/* --------------------------------- */
+footer {
+  background-color: #191919;
+  margin-top: 100px;
+  padding: 50px 10px;
+}
+
+footer .content {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+footer .content h1 {
+  margin-bottom: 30px;
+}
+
+footer .content p {
+  color: #ccc;
+  line-height: 1.7;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+footer .content .email {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #ccc;
+  font-weight: bold;
+}
+
+footer .content .email i {
+  margin-right: 5px;
+}
+
+footer .content ul {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+
+
+}
+
+footer .content ul li {
+  margin-right: 30px;
+}
+
+footer a i {
+  color: white;
+  font-size: 22px;
+}
+
+footer a i:hover {
+  color: #f06f46;
+}
+
+@media (max-width: 767px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+
+  header .logo {
+    margin: 0 auto;
+  }
+
+  header ul {
+    margin: 0 auto;
+  }
+
+  header ul li {
+    padding: 15px;
+  }
+
+  header ul li a {
+    font-size: 16px;
+  }
+
+  .project .cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  .experience .content .title {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 5px;
+  }
+
+  .experience .head h2 {
+    font-size: 16px;
+  }
+
+  .experience .head .history {
+    font-size: 10px;
+  }
+
+  .experience .content .text {
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer ul {
+    justify-content: center;
+  }
+}
